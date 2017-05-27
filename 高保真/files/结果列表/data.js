@@ -1,0 +1,37 @@
+﻿$axure.loadCurrentPage({
+  "url":"结果列表.html",
+  "generationDate":new Date(1495428280147.78),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable",
+"text_keyword"],
+  "page":{
+    "packageId":"ad47a56d54e94d13a4ee2bee305a67b9",
+    "type":"Axure:Page",
+    "name":"结果列表",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"Applied Font",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[]}},
+  "masters":{
+},
+  "objectPaths":{
+}});

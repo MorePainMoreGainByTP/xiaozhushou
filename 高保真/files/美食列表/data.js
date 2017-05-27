@@ -1,0 +1,37 @@
+﻿$axure.loadCurrentPage({
+  "url":"美食列表.html",
+  "generationDate":new Date(1495872721058.18),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable",
+"text_keyword"],
+  "page":{
+    "packageId":"a59565e9e13c4870b9364ddce36b024b",
+    "type":"Axure:Page",
+    "name":"美食列表",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"Applied Font",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[]}},
+  "masters":{
+},
+  "objectPaths":{
+}});

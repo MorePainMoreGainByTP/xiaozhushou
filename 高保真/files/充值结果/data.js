@@ -1,0 +1,485 @@
+﻿$axure.loadCurrentPage({
+  "url":"充值结果.html",
+  "generationDate":new Date(1495872722866.86),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable",
+"text_keyword"],
+  "page":{
+    "packageId":"4f82a96bf3ef4eb3bc12ff749ecdf024",
+    "type":"Axure:Page",
+    "name":"充值结果",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"Applied Font",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"49599b64e190495b8334328a2dbf53a9",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "size":{
+              "width":480,
+              "height":800}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"08e524706e764031a432ff946a4184ac",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "size":{
+                  "width":480,
+                  "height":800}},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onMouseOver":{
+              "description":"OnMouseOver",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"setFunction",
+                      "description":"Set text on number equal to value of Unspecified",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[{
+                            "exprType":"fcall",
+                            "functionName":"SetWidgetRichText",
+                            "arguments":[{
+                                "exprType":"pathLiteral",
+                                "isThis":false,
+                                "isFocused":false,
+                                "isTarget":false,
+                                "value":["8ff6da5b79fb471ea05fbe1e15a5468f"]},
+{
+                                "exprType":"fcall",
+                                "functionName":"GetGlobalVariableValue",
+                                "arguments":[{
+                                    "exprType":"globalVariableLiteral",
+                                    "variableName":""}]},
+{
+                                "exprType":"booleanLiteral",
+                                "value":true}]}]}}]}]}},
+          "images":{
+            "normal~":"images/附近/u0.png"}},
+{
+          "id":"a86f88b1a8c7416ab9eac4b5b2cada9a",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "fontSize":"36px",
+            "size":{
+              "width":480,
+              "height":96}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"afe55edd85f84d4db1460624041f33df",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontSize":"36px",
+                "size":{
+                  "width":480,
+                  "height":96}},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onMouseOver":{
+              "description":"OnMouseOver",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"setFunction",
+                      "description":"Set text on number equal to value of Unspecified",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[{
+                            "exprType":"fcall",
+                            "functionName":"SetWidgetRichText",
+                            "arguments":[{
+                                "exprType":"pathLiteral",
+                                "isThis":false,
+                                "isFocused":false,
+                                "isTarget":false,
+                                "value":["8ff6da5b79fb471ea05fbe1e15a5468f"]},
+{
+                                "exprType":"fcall",
+                                "functionName":"GetGlobalVariableValue",
+                                "arguments":[{
+                                    "exprType":"globalVariableLiteral",
+                                    "variableName":""}]},
+{
+                                "exprType":"booleanLiteral",
+                                "value":true}]}]}}]}]}},
+          "images":{
+            "normal~":"images/生活服务/u8.png"}},
+{
+          "id":"fae842307e4345278cf8adce3b214ea6",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "fontSize":"24px",
+            "location":{
+              "x":154,
+              "y":643},
+            "size":{
+              "width":211,
+              "height":48},
+            "cornerRadiusTopLeft":"5"},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"62fe9069a8cf43818d9548cf626cfec1",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontSize":"24px",
+                "location":{
+                  "x":154,
+                  "y":643},
+                "size":{
+                  "width":211,
+                  "height":48},
+                "cornerRadiusTopLeft":"5"},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"Open Link in Current Window",
+                      "target":{
+                        "targetType":"page",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]},
+            "onMouseOver":{
+              "description":"OnMouseOver",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"setFunction",
+                      "description":"Set text on number equal to value of Unspecified",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[{
+                            "exprType":"fcall",
+                            "functionName":"SetWidgetRichText",
+                            "arguments":[{
+                                "exprType":"pathLiteral",
+                                "isThis":false,
+                                "isFocused":false,
+                                "isTarget":false,
+                                "value":["8ff6da5b79fb471ea05fbe1e15a5468f"]},
+{
+                                "exprType":"fcall",
+                                "functionName":"GetGlobalVariableValue",
+                                "arguments":[{
+                                    "exprType":"globalVariableLiteral",
+                                    "variableName":""}]},
+{
+                                "exprType":"booleanLiteral",
+                                "value":true}]}]}}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"images/充值结果/u4.png"}},
+{
+          "id":"20695f2fe18e420d96ac9e23e04e7017",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":19,
+              "y":29},
+            "size":{
+              "width":48,
+              "height":38}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"463b2d8f7b7c4951b11a72ca0fe04cf6",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":19,
+                  "y":29},
+                "size":{
+                  "width":48,
+                  "height":38}},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"Open Back in Current Window",
+                      "target":{
+                        "targetType":"backUrl",
+                        "includeVariables":false},
+                      "linkType":"current"}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"images/生活服务/u10.png"}},
+{
+          "id":"9ed796909ece4f3383a2f5cfd8a92cde",
+          "label":"充值结果",
+          "type":"buttonShape",
+          "styleType":"h1",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":169,
+              "y":233},
+            "size":{
+              "width":161,
+              "height":37}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"16cb61f1ce1746f18f014e73412acf04",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":169,
+                  "y":233},
+                "size":{
+                  "width":161,
+                  "height":37}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"59b1e12753364e8abc68a64f9836ae1a",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"paragraph",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":140,
+              "y":310},
+            "size":{
+              "width":161,
+              "height":15}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"e69a76862c3244fcb7ba53e65b467211",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":140,
+                  "y":310},
+                "size":{
+                  "width":161,
+                  "height":15}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"d3e882d3f59c4b7c9ec0d437c373a160",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "fontSize":"24px",
+            "location":{
+              "x":154,
+              "y":710},
+            "size":{
+              "width":211,
+              "height":48},
+            "cornerRadiusTopLeft":"5"},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"8688e556a4054a56b1a5786162ff9871",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontSize":"24px",
+                "location":{
+                  "x":154,
+                  "y":710},
+                "size":{
+                  "width":211,
+                  "height":48},
+                "cornerRadiusTopLeft":"5"},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"Open Link in Current Window",
+                      "target":{
+                        "targetType":"page",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]},
+            "onMouseOver":{
+              "description":"OnMouseOver",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"setFunction",
+                      "description":"Set text on number equal to value of Unspecified",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[{
+                            "exprType":"fcall",
+                            "functionName":"SetWidgetRichText",
+                            "arguments":[{
+                                "exprType":"pathLiteral",
+                                "isThis":false,
+                                "isFocused":false,
+                                "isTarget":false,
+                                "value":["8ff6da5b79fb471ea05fbe1e15a5468f"]},
+{
+                                "exprType":"fcall",
+                                "functionName":"GetGlobalVariableValue",
+                                "arguments":[{
+                                    "exprType":"globalVariableLiteral",
+                                    "variableName":""}]},
+{
+                                "exprType":"booleanLiteral",
+                                "value":true}]}]}}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"images/充值结果/u4.png"}},
+{
+          "id":"1c8320889359415d84c45e77f9695565",
+          "label":"number",
+          "type":"buttonShape",
+          "styleType":"paragraph",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":252,
+              "y":310},
+            "size":{
+              "width":32,
+              "height":15}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"8ff6da5b79fb471ea05fbe1e15a5468f",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":252,
+                  "y":310},
+                "size":{
+                  "width":32,
+                  "height":15}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "49599b64e190495b8334328a2dbf53a9":{
+      "scriptId":"u0"},
+    "08e524706e764031a432ff946a4184ac":{
+      "scriptId":"u1"},
+    "a86f88b1a8c7416ab9eac4b5b2cada9a":{
+      "scriptId":"u2"},
+    "afe55edd85f84d4db1460624041f33df":{
+      "scriptId":"u3"},
+    "fae842307e4345278cf8adce3b214ea6":{
+      "scriptId":"u4"},
+    "62fe9069a8cf43818d9548cf626cfec1":{
+      "scriptId":"u5"},
+    "20695f2fe18e420d96ac9e23e04e7017":{
+      "scriptId":"u6"},
+    "463b2d8f7b7c4951b11a72ca0fe04cf6":{
+      "scriptId":"u7"},
+    "9ed796909ece4f3383a2f5cfd8a92cde":{
+      "scriptId":"u8"},
+    "16cb61f1ce1746f18f014e73412acf04":{
+      "scriptId":"u9"},
+    "59b1e12753364e8abc68a64f9836ae1a":{
+      "scriptId":"u10"},
+    "e69a76862c3244fcb7ba53e65b467211":{
+      "scriptId":"u11"},
+    "d3e882d3f59c4b7c9ec0d437c373a160":{
+      "scriptId":"u12"},
+    "8688e556a4054a56b1a5786162ff9871":{
+      "scriptId":"u13"},
+    "1c8320889359415d84c45e77f9695565":{
+      "scriptId":"u14"},
+    "8ff6da5b79fb471ea05fbe1e15a5468f":{
+      "scriptId":"u15"}}});

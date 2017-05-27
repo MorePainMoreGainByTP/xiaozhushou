@@ -1,0 +1,247 @@
+﻿$axure.loadCurrentPage({
+  "url":"景点.html",
+  "generationDate":new Date(1495872721259.32),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable",
+"text_keyword"],
+  "page":{
+    "packageId":"b55d3f4112904a628002d162f4e93702",
+    "type":"Axure:Page",
+    "name":"景点",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"Applied Font",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"1df4c86336a84725928a71196c59315b",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "fontSize":"20px",
+            "location":{
+              "x":70,
+              "y":30},
+            "size":{
+              "width":480,
+              "height":800}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"61478f03ed9c452f8a7f92a9af08e17a",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontSize":"20px",
+                "location":{
+                  "x":70,
+                  "y":30},
+                "size":{
+                  "width":480,
+                  "height":800}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/附近/u0.png"}},
+{
+          "id":"22432369589946b2815b01e1d8125949",
+          "label":"",
+          "type":"inlineFrame",
+          "styleType":"inlineFrame",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":79,
+              "y":94},
+            "size":{
+              "width":461,
+              "height":731}},
+          "adaptiveStyles":{
+}},
+{
+          "id":"311b76da0ce94fb0b1ed8cbee7b74a0d",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "fontSize":"20px",
+            "location":{
+              "x":87,
+              "y":42},
+            "size":{
+              "width":43,
+              "height":48}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"6a366da27cda484e9d1694673d95c921",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontSize":"20px",
+                "location":{
+                  "x":87,
+                  "y":42},
+                "size":{
+                  "width":43,
+                  "height":48}},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"Open 导航模块 in Current Window",
+                      "target":{
+                        "targetType":"page",
+                        "url":"导航模块.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"images/附近/u3.png"}},
+{
+          "id":"05ce742b0d654da5a4d88d2b5f9c4aca",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"paragraph",
+          "visible":true,
+          "style":{
+            "fontSize":"25px",
+            "location":{
+              "x":145,
+              "y":50},
+            "size":{
+              "width":100,
+              "height":29}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"09a166726fee453b989bf9fbd38c86dc",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontSize":"25px",
+                "location":{
+                  "x":145,
+                  "y":50},
+                "size":{
+                  "width":100,
+                  "height":29}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"49617427fd0a4429ba1acb72c61b261f",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"paragraph",
+          "visible":true,
+          "style":{
+            "fontSize":"20px",
+            "location":{
+              "x":620,
+              "y":30},
+            "size":{
+              "width":300,
+              "height":70}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"3a597db412374e4e90f9232d3b13752a",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontSize":"20px",
+                "location":{
+                  "x":620,
+                  "y":30},
+                "size":{
+                  "width":300,
+                  "height":70}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"9848f4dd87a6472c93603b494e8f4e44",
+          "label":"",
+          "type":"horizontalLine",
+          "styleType":"horizontalLine",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":70,
+              "y":89},
+            "size":{
+              "width":480,
+              "height":10},
+            "borderFill":{
+              "fillType":"solid",
+              "color":0xFFCCCCCC}},
+          "adaptiveStyles":{
+},
+          "images":{
+            "start~":"resources/images/transparent.gif",
+            "end~":"resources/images/transparent.gif",
+            "line~":"images/景点/u9_line.png"}}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "1df4c86336a84725928a71196c59315b":{
+      "scriptId":"u0"},
+    "61478f03ed9c452f8a7f92a9af08e17a":{
+      "scriptId":"u1"},
+    "22432369589946b2815b01e1d8125949":{
+      "scriptId":"u2"},
+    "311b76da0ce94fb0b1ed8cbee7b74a0d":{
+      "scriptId":"u3"},
+    "6a366da27cda484e9d1694673d95c921":{
+      "scriptId":"u4"},
+    "05ce742b0d654da5a4d88d2b5f9c4aca":{
+      "scriptId":"u5"},
+    "09a166726fee453b989bf9fbd38c86dc":{
+      "scriptId":"u6"},
+    "49617427fd0a4429ba1acb72c61b261f":{
+      "scriptId":"u7"},
+    "3a597db412374e4e90f9232d3b13752a":{
+      "scriptId":"u8"},
+    "9848f4dd87a6472c93603b494e8f4e44":{
+      "scriptId":"u9"}}});

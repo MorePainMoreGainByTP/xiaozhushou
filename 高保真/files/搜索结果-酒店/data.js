@@ -1,0 +1,282 @@
+﻿$axure.loadCurrentPage({
+  "url":"搜索结果-酒店.html",
+  "generationDate":new Date(1495872721088.42),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable",
+"text_keyword"],
+  "page":{
+    "packageId":"36eff4b4bbf14f918fadb9604f21ca17",
+    "type":"Axure:Page",
+    "name":"搜索结果-酒店",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"Applied Font",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+      "onLoad":{
+        "description":"OnLoad",
+        "cases":[{
+            "description":"Case 1",
+            "isNewIfGroup":false,
+            "actions":[]}]}},
+    "diagram":{
+      "objects":[{
+          "id":"bfb7d64ce5444b0799618d15e5e29092",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "fontSize":"20px",
+            "location":{
+              "x":50,
+              "y":40},
+            "size":{
+              "width":480,
+              "height":800}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"088c33bd110249c2bc018e00d4101536",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontSize":"20px",
+                "location":{
+                  "x":50,
+                  "y":40},
+                "size":{
+                  "width":480,
+                  "height":800}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/附近/u0.png"}},
+{
+          "id":"8d1e3fc1104b49d19bb62ef41d68e7df",
+          "label":"",
+          "type":"inlineFrame",
+          "styleType":"inlineFrame",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":50,
+              "y":40},
+            "size":{
+              "width":480,
+              "height":800}},
+          "adaptiveStyles":{
+}},
+{
+          "id":"017d516e373949d581021f0e7c8dc3d5",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "fontSize":"20px",
+            "location":{
+              "x":90,
+              "y":41},
+            "size":{
+              "width":409,
+              "height":49}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"200dee8233794212b1662052c4bb89c8",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontSize":"20px",
+                "location":{
+                  "x":90,
+                  "y":41},
+                "size":{
+                  "width":409,
+                  "height":49}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/搜索结果-酒店/u3.png"}},
+{
+          "id":"e7356dbaa5e64c0b9e65dfb0bb086071",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "fontSize":"20px",
+            "location":{
+              "x":100,
+              "y":43},
+            "size":{
+              "width":39,
+              "height":44}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"9b1d94351e41479b8910c2723c6fa905",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontSize":"20px",
+                "location":{
+                  "x":100,
+                  "y":43},
+                "size":{
+                  "width":39,
+                  "height":44}},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"Open 搜索 in Current Window",
+                      "target":{
+                        "targetType":"page",
+                        "url":"搜索.html",
+                        "includeVariables":true},
+                      "linkType":"current"},
+{
+                      "action":"setFunction",
+                      "description":"Set value of text_keyword equal to &quot;&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[{
+                            "exprType":"fcall",
+                            "functionName":"SetGlobalVariableValue",
+                            "arguments":[{
+                                "exprType":"globalVariableLiteral",
+                                "variableName":"text_keyword"},
+{
+                                "exprType":"stringLiteral",
+                                "value":"",
+                                "stos":[]}]}]}}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"images/附近/u3.png"}},
+{
+          "id":"e2e260554ac84d419e811f5c388b2c3c",
+          "label":"search_content",
+          "type":"buttonShape",
+          "styleType":"paragraph",
+          "visible":true,
+          "style":{
+            "fontSize":"20px",
+            "location":{
+              "x":148,
+              "y":53},
+            "size":{
+              "width":41,
+              "height":23}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"a51d7e49bb80468f86b6388c5ec8573d",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontSize":"20px",
+                "location":{
+                  "x":148,
+                  "y":53},
+                "size":{
+                  "width":41,
+                  "height":23}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"91d7d498cb3642788753a956c80e6f1a",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"paragraph",
+          "visible":true,
+          "style":{
+            "fontSize":"20px",
+            "location":{
+              "x":658,
+              "y":67},
+            "size":{
+              "width":661,
+              "height":46}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"c7e30afb22df4e73b9f79cdbbb535235",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontSize":"20px",
+                "location":{
+                  "x":658,
+                  "y":67},
+                "size":{
+                  "width":661,
+                  "height":46}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "bfb7d64ce5444b0799618d15e5e29092":{
+      "scriptId":"u0"},
+    "088c33bd110249c2bc018e00d4101536":{
+      "scriptId":"u1"},
+    "8d1e3fc1104b49d19bb62ef41d68e7df":{
+      "scriptId":"u2"},
+    "017d516e373949d581021f0e7c8dc3d5":{
+      "scriptId":"u3"},
+    "200dee8233794212b1662052c4bb89c8":{
+      "scriptId":"u4"},
+    "e7356dbaa5e64c0b9e65dfb0bb086071":{
+      "scriptId":"u5"},
+    "9b1d94351e41479b8910c2723c6fa905":{
+      "scriptId":"u6"},
+    "e2e260554ac84d419e811f5c388b2c3c":{
+      "scriptId":"u7"},
+    "a51d7e49bb80468f86b6388c5ec8573d":{
+      "scriptId":"u8"},
+    "91d7d498cb3642788753a956c80e6f1a":{
+      "scriptId":"u9"},
+    "c7e30afb22df4e73b9f79cdbbb535235":{
+      "scriptId":"u10"}}});
